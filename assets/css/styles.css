@@ -1364,3 +1364,22 @@ img{
     z-index: -999999;
     opacity: 0;
     }
+
+/* Style for the navigation links */
+.nav__link {
+    display: flex;
+    align-items: center; /* Aligns the icon and text vertically */
+    padding: 14px 20px; /* Adjust padding as needed */
+    color: blue;
+    text-decoration: none;
+}
+
+/* Style for the download icon */
+.nav__icon {
+    margin-right: 5px; /* Adds some spacing between the icon and text */
+}
+
+/* Hover effect for the navigation links */
+.nav__link:hover {
+    background-color: rgba(255, 255, 255, 0.1); /* Adjust background color on hover */
+}
