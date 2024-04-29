@@ -331,108 +331,58 @@
 
 
 
-        <!--==================== PORTFOLIO ====================-->
-        <section class="portfolio section" id="portfolio">
-            <h2 class="section__title">Portfolio</h2>
-            <span class="section__subtitle">Most Recent Work</span>
+<!--==================== PORTFOLIO ====================-->
+<section class="portfolio section" id="portfolio">
+    <h2 class="section__title">Portfolio</h2>
+    <span class="section__subtitle">Check out some of my recent work</span>
 
-            <div class="portfolio__container container swiper-container">
-                <div class="swiper-wrapper">
-
-                    <!--======================== PORTFOLIO 1 =============-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio1.gif" alt="" class="portfolio__img" loading="lazy">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">PyTorch Dino AI Game</h3>
-                            <p class="portfolio__description">
-                                Training an AI model to play the Chrome Dino Game using PyTorch and
-                                EfficientNet.
-                            </p>
-                            <a href="https://github.com/GuglielmoCerri/pytorch-dino-ai-game"
-                                class="button button--flex button--small portfolio__button">
-                                View
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--======================== PORTFOLIO 2 =============-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio2.gif" alt="" class="portfolio__img" loading="lazy">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Advent of Code</h3>
-                            <p class="portfolio__description">
-                                Solutions to the AoC calendar problems puzzles for 2021 and 2022 with Python. The
-                                solutions have been added to the
-                                <a href="https://github.com/Bogdanp/awesome-advent-of-code">awesome-advent-of-code
-                                    repository.</a>
-                            </p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
-                                View
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--======================== PORTFOLIO 3 =============-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio3.jpg" alt="Featurewiz Logo" class="portfolio__img" loading="lazy">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Featurewiz</h3>
-                            <p class="portfolio__description">
-                                Contributions to Featurewiz, an open source advanced machine learning library to perform
-                                Feature Selection and Feature Engineering.
-                            </p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
-                                View
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--======================== PORTFOLIO 4 =============-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio4.gif" alt="" class="portfolio__img" loading="lazy">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">Bamsurgeon</h3>
-                            <p class="portfolio__description">
-                                Contributions to Bamsurgeon, a set of tools for adding genomic variants to SAM/BAM/CRAM
-                                files,
-                                for testing variant callers.
-                            </p>
-                            <a href="#" class="button button--flex button--small portfolio__button">
-                                View
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                    <!--======================== PORTFOLIO 5 =============-->
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="assets/img/portfolio5.png" alt="" class="portfolio__img" loading="lazy">
-
-                        <div class="portfolio__data">
-                            <h3 class="portfolio__title">IMDb Sentiment Analysis</h3>
-                            <p class="portfolio__description">
-                                Analysis (with NLP techniques) and binary sentiment classification on movie reviews from the IMDb dataset .
-                            </p>
-                            <a href="https://github.com/GuglielmoCerri/IMDb-Sentiment-Analysis/tree/main" class="button button--flex button--small portfolio__button">
-                                View
-                                <i class="uil uil-arrow-right button__icon"></i>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-            
-                <!--============ Add Pagination =============-->
-                <div class="swiper-pagination swiper-pagination-portfolio"></div>
+    <div class="portfolio__container container grid">
+        <!-- Portfolio Item 1 -->
+        <a href="https://github.com/GuglielmoCerri/pytorch-dino-ai-game" class="portfolio__item">
+            <img src="assets/img/portfolio1.jpg" alt="PyTorch Dino AI Game" class="portfolio__img">
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">PyTorch Dino AI Game</h3>
+                <p class="portfolio__description">Train an AI model to play the Chrome Dino Game using PyTorch and EfficientNet.</p>
             </div>
-        </section>
+        </a>
+
+        <!-- Portfolio Item 2 -->
+        <a href="#" class="portfolio__item">
+            <img src="assets/img/portfolio2.jpg" alt="Advent of Code" class="portfolio__img">
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Advent of Code</h3>
+                <p class="portfolio__description">Solutions to AoC puzzles for 2021 and 2022 with Python. Contributions to <a href="https://github.com/Bogdanp/awesome-advent-of-code">awesome-advent-of-code repository.</a></p>
+            </div>
+        </a>
+
+        <!-- Portfolio Item 3 -->
+        <a href="#" class="portfolio__item">
+            <img src="assets/img/portfolio3.jpg" alt="Featurewiz" class="portfolio__img">
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Featurewiz</h3>
+                <p class="portfolio__description">Contributions to Featurewiz, an open-source ML library for Feature Selection and Engineering.</p>
+            </div>
+        </a>
+
+        <!-- Portfolio Item 4 -->
+        <a href="#" class="portfolio__item">
+            <img src="assets/img/portfolio3.jpg" alt="Bamsurgeon" class="portfolio__img">
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">Bamsurgeon</h3>
+                <p class="portfolio__description">Contributions to Bamsurgeon, tools for adding genomic variants to SAM/BAM/CRAM files for testing variant callers.</p>
+            </div>
+        </a>
+
+        <!-- Portfolio Item 5 -->
+        <a href="https://github.com/GuglielmoCerri/IMDb-Sentiment-Analysis/tree/main" class="portfolio__item">
+            <img src="assets/img/portfolio5.jpg" alt="IMDb Sentiment Analysis" class="portfolio__img">
+            <div class="portfolio__data">
+                <h3 class="portfolio__title">IMDb Sentiment Analysis</h3>
+                <p class="portfolio__description">Analysis and binary sentiment classification on IMDb movie reviews using NLP techniques.</p>
+            </div>
+        </a>
+    </div>
+</section>
 
         <!--==================== ARTICLES ====================-->
         <!--==================== ARTICLES ====================-->
