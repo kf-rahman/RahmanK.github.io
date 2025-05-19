@@ -1,0 +1,7 @@
+Done:
+got the basic static ui
+deployed via github pages
+ToDo:
+fill in my info
+update code so that i can easily add writing and its a new page
+
